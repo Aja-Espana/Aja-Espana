@@ -6,7 +6,8 @@ Hey there, I'm Aja. Welcome to my personal repository! This place serves as a hu
 ---
 ### Releases:
 
-#### **OsuProfileScraper**
+#### OsuProfileScraper ([Link](https://github.com/Aja-Espana/OsuProfileScraper))
+
 A simple software that takes player data from osu! API and updates it in live time for basic GDI functionality in OBS.
 
 ###
