@@ -1,0 +1,3 @@
+[submodule "Projects/OsuProfileScraper"]
+	path = Projects/OsuProfileScraper
+	url = https://github.com/Aja-Espana/OsuProfileScraper.git
