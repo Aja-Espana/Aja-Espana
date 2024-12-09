@@ -1,6 +1,7 @@
-# My Repository
+# About Me
 
-Welcome to my personal repository! This repository serves as a hub for all my projects in both software and game development.
+Hey there, I'm Aja. Welcome to my personal repository! This place serves as a hub for all my projects in both software and game development.
+
 ###
 ---
 ### Releases:
