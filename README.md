@@ -1,42 +1,76 @@
 # About Me
 
-Hey, I'm Aja. I'm a programmer and designer who has been building prototypes to improve my skills in game development and project management. This my personal repository that is a hub for all my projects.
+Hey, I'm Aja. I'm a programmer and designer who has been building prototypes to improve my skills in game development and project management. This my personal repository and hub for all of my game system and tool creations, as well as pieces of my lean software suite for Mandible.
 
 ###
 ---
-### Releases:
+# Public Projects
 
-#### OsuProfileScraper ([Link](https://github.com/Aja-Espana/OsuProfileScraper))
+These are currently a few mainline modules from the Mandible ecosystem. They represent the foundation of our projects and will remain publicly available for the time being.
 
-A simple software that takes player data from osu! API and updates it in live time for basic GDI functionality in OBS.
+### **Mandible.Generic**
+A foundational package containing engine-agnostic utility systems:
+- Custom serialization helpers
+- Data structures (e.g., Blackboard, SerializedDictionary)
+- Math and runtime utilities
+- Shared infrastructure for our Mandible modules
 
-###
+### **Mandible.PlayerController**
+A modular, kinematic character controller built for flexibility and extensibility:
+- Dynamic camera handling
+- Event-driven forces and movement channels
+- Input abstraction layer (Keyboard/Mouse & Controller)
+- Assessed for future physics integration
+- Clean interoperability with Mandible.AbilitySystem
+
+### **Mandible.AbilitySystem**
+A modular ability framework with emphasis on extensibility and runtime flexibility:
+- Base slots, swappable slots, and override profiles
+- Weighted input buffering and ability queuing
+- Runtime ability data and cooldown tracking
+- Extensions: *UltimateAbilitySystem* addon inspired by Overwatch's Ultimates
+- Integrates cleanly with Mandible.PlayerController and custom keybinding setups
+
 ---
 
-### Ongoing Projects:
+# Private R&D Systems (In Development)
 
-#### **NovaRift**
-An action-adventure survival game where a desolate spaceman explores a variety of different planets to learn more of a hypership that will help him escape an anomaly in spacetime.
+These systems remain private while APIs, documentation, and architecture stabilize.  
+They form the backbone of long-term Mandible engine and tooling development.
 
-- Crafting and Variety: You will craft weapons, armor, ship pieces, meals, and other useful objects that will help you on your journey.
-- Purpose-Based Exploration: You will explore a multitude of different planets with underlying themes that teach you more about this ancient race, while aiding you in your self-discovery.
-- Fear for Survival: You will face different statuses, like hunger, thirst, and temperature, as well as alien beasts of all sizes that will pull you away from success.
-  
-#### **Anima**
-A metroidvania series in a frog-themed world with dynamic gameplay and a
-mesoamerican-inspired mythos. The series integrates environmental storytelling and exploration, with puzzles and combat deeply tied to the lore.
+### **SPKTRE (Flagship Project)**
+A high-systems action project built on custom Mandible tooling.  
+Includes experimental movement logic, AI prototypes, data interfaces, and world systems.
 
-- Dynamic Exploration: You will traverse diverse environments, from lush jungles to ancient ruins, each filled with secrets, hidden paths, and new challenges. As you progress, the world changes, unlocking previously inaccessible areas and revealing deeper lore.
+### **BiteGraph**
+A serialized node-graph and blackboard framework designed for designer-friendly logic:
+- Serialized editor interface
+- Reflection-driven discovery for custom node types
+- Condition, action, and hard-coded node support
+- Blackboard variable system
+- Built to integrate with controllers, abilities, and AI systems
 
-- Narrative and Lore: You will encounter gods, spirits, and ancient creatures inspired by Mesoamerican mythology. Their stories and interactions will shape your journey, revealing the ancient powers that govern the world and your place within it.
+### **HybridController + PhysicsSystem**
+An experimental kinematic/physics hybrid movement system:
+- Additive movement layers (forces + kinematic intent)
+- Omnigravity support and non-standard medium behaviors
+- PhysicsSystem proxy with serialized rigidbody parameters
+- Custom locomotion models for experimental traversal and planetary environments
 
-- Abilities and Combat: You will combine your agility, elemental powers, and strategic use of the environment to defeat enemies and bosses tied to the ancient deities.
-
-
-###
 ---
 
-### Tech Stack & Tools:
-- Languages: Bash, C, C#, CSS, HTML, Java, Python
-- Game Engines: Unity, Godot
-- Version Control: Git
+# Smaller Projects & Prototypes
+
+Compact tools and earlier prototypes exploring engine behavior, gameplay, and software design.
+
+- **OsuProfileScraper** — Python-based osu! API scraper for OBS integration (live data overlays).  
+- **NovaRift** — Survival/exploration prototype focusing on systemic crafting and planetary traversal.  
+- **Anima** — Frog-themed metroidvania prototypes exploring movement, level readability, and environmental storytelling.  
+- **Additional micro-projects** — early gameplay tests, engine experiments, and structural prototypes for pipeline practice.
+
+---
+
+# Tech Stack & Tools
+- **Languages:** Bash, C, C#, CSS, HTML, Java, Python  
+- **Engines:** Unity, Godot  
+- **Version Control:** Git  
