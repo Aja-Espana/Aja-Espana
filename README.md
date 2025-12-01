@@ -1,6 +1,6 @@
 # About Me
 
-Hey there, I'm Aja. Welcome to my personal repository! This place serves as a hub for all my projects in both software and game development.
+Hey, I'm Aja. I'm a programmer and designer who has been building prototypes to improve my skills in game development and project management. This my personal repository that is a hub for all my projects.
 
 ###
 ---
