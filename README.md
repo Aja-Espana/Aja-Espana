@@ -52,7 +52,7 @@ A simple, experimental node graph to help model decoupled, serialized behavior:
 
 ### **HybridController + PhysicsSystem**
 An experimental kinematic/physics hybrid movement system:
-- Additive movement layers (forces + kinematic intent)
+- Additive movement layers (kinematic + dynamic forces)
 - Effector subscription and layering (e.g. bounce pads, grapple spots)
 - Omnigravity support and nonstandard physics behaviors
 - PhysicsSystem dependency with serialized Rigidbody parameters
