@@ -38,39 +38,39 @@ A modular ability framework with emphasis on extensibility and runtime flexibili
 These systems remain private while APIs, documentation, and architecture stabilize.  
 They form the backbone of long-term Mandible engine and tooling development.
 
-### **SPKTRE (Flagship Project)**
+### **SPKTRE (Main Project)**
 A high-systems action project built on custom Mandible tooling.  
 Includes experimental movement logic, AI prototypes, data interfaces, and world systems.
 
 ### **BiteGraph**
-A serialized node-graph and blackboard framework designed for designer-friendly logic:
+A simple, experimental node graph to help model decoupled, serialized behavior:
 - Serialized editor interface
-- Reflection-driven discovery for custom node types
-- Condition, action, and hard-coded node support
+- Reflection-based querying for custom node types
+- Generic condition, action, and hard-coded node support
 - Blackboard variable system
 - Built to integrate with controllers, abilities, and AI systems
 
 ### **HybridController + PhysicsSystem**
 An experimental kinematic/physics hybrid movement system:
 - Additive movement layers (forces + kinematic intent)
-- Omnigravity support and non-standard medium behaviors
-- PhysicsSystem proxy with serialized rigidbody parameters
-- Custom locomotion models for experimental traversal and planetary environments
+- Effector subscription and layering (e.g. bounce pads, grapple spots)
+- Omnigravity support and nonstandard physics behaviors
+- PhysicsSystem dependency with serialized Rigidbody parameters
 
 ---
 
 # Smaller Projects & Prototypes
 
-Compact tools and earlier prototypes exploring engine behavior, gameplay, and software design.
+Earlier personal projects exploring system architecture, object-oriented programming, and software design.
 
 - **OsuProfileScraper** — Python-based osu! API scraper for OBS integration (live data overlays).  
 - **NovaRift** — Survival/exploration prototype focusing on systemic crafting and planetary traversal.  
-- **Anima** — Frog-themed metroidvania prototypes exploring movement, level readability, and environmental storytelling.  
-- **Additional micro-projects** — early gameplay tests, engine experiments, and structural prototypes for pipeline practice.
+- **Anima** — Frog-themed metroidvania prototype exploring movement, level readability, and musical storytelling.  
 
 ---
 
 # Tech Stack & Tools
-- **Languages:** Bash, C, C#, CSS, HTML, Java, Python  
-- **Engines:** Unity, Godot  
-- **Version Control:** Git  
+
+Languages: C#, C/C++, Python, Java, Bash/Shell, Racket, JavaScript, HTML/CSS, LaTeX 
+
+Technologies: Unity, Unreal Engine, Godot, Shader Graph, Git, Visual Studio, React, Figma
