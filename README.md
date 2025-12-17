@@ -1,46 +1,45 @@
 # About Me
 
-Hey, I'm Aja. I'm a programmer and designer who has been building prototypes to improve my skills in game development and project management. This my personal repository and hub for all of my game system and tool creations, as well as pieces of my lean software suite for Mandible.
+Hey, I'm Aja. I'm a programmer and designer who has been building prototypes to improve my skills in game development and project management. This my personal hub for all of my tools and scripts, including systems I've developed for Mandible.
 
 ###
 ---
 # Public Projects
 
-These are currently a few mainline modules from the Mandible ecosystem. They represent the foundation of our projects and will remain publicly available for the time being.
+There are currently a few mainline systems in the Mandible suite. They're becoming the foundation of our projects and will remain publicly available for the time being.
 
 ### **Mandible.Generic**
-A foundational package containing engine-agnostic utility systems:
+A foundational package containing Unity and engine-agnostic utils:
 - Custom serialization helpers
 - Data structures (e.g., Blackboard, SerializedDictionary)
 - Math and runtime utilities
-- Shared infrastructure for our Mandible modules
+- Dependency for other Mandible systems
 
 ### **Mandible.PlayerController**
-A modular, kinematic character controller built for flexibility and extensibility:
+A modular, kinematic character controller that can be easily extensible:
 - Dynamic camera handling
-- Event-driven forces and movement channels
-- Input abstraction layer (Keyboard/Mouse & Controller)
-- Assessed for future physics integration
+- Procedural animations and force response
+- Input abstraction layer (PC & Console innately supported)
+- Open to use with Physics effectors
 - Clean interoperability with Mandible.AbilitySystem
 
 ### **Mandible.AbilitySystem**
-A modular ability framework with emphasis on extensibility and runtime flexibility:
+A modular ability framework that uses ScriptableObject Abilities with a native scripting API & Blackboard:
 - Base slots, swappable slots, and override profiles
 - Weighted input buffering and ability queuing
 - Runtime ability data and cooldown tracking
 - Extensions: *UltimateAbilitySystem* addon inspired by Overwatch's Ultimates
-- Integrates cleanly with Mandible.PlayerController and custom keybinding setups
+- Integrates cleanly with Mandible.PlayerController and its input abstraction layer
 
 ---
 
 # Private R&D Systems (In Development)
 
-These systems remain private while APIs, documentation, and architecture stabilize.  
-They form the backbone of long-term Mandible engine and tooling development.
+These systems will be private, since they're in-house Mandible projects or experiments. I might release documentation later on a portfolio site later in my coursework.
 
 ### **SPKTRE (Main Project)**
 A high-systems action project built on custom Mandible tooling.  
-Includes experimental movement logic, AI prototypes, data interfaces, and world systems.
+Includes experimental movement controller, AI prototypes, data interfaces, and core systems.
 
 ### **BiteGraph**
 A simple, experimental node graph to help model decoupled, serialized behavior:
