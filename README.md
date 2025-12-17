@@ -16,7 +16,7 @@ A foundational package containing Unity and engine-agnostic utils:
 - Dependency for other Mandible systems
 
 ### **Mandible.PlayerController**
-A modular, kinematic character controller that can be easily extensible:
+A modular, kinematic character controller that is easily extensible:
 - Dynamic camera handling
 - Procedural animations and force response
 - Input abstraction layer (PC & Console innately supported)
